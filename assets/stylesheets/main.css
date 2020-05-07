@@ -170,3 +170,22 @@ table {
 	font-size: 10px;
 	text-align: center;
 }
+
+#copyright_info_firstln {
+	font-size: 12px;
+	word-spacing: 20px;
+	padding-top: 1%;
+	padding-left: 47%;
+}
+
+#copyright_info_secondln {
+	padding-top: 0.4%;
+	padding-left: 35%;
+	font-size: 12px;
+}
+
+#copyright_info_thirdln {
+	padding-top: 0.2%;
+	padding-left: 38%;
+	font-size: 12px;
+}
