@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mint Signup Form</title>
+		<link rel="stylesheet" href="assets/stylesheets/main.css">
+	</head>
+	
+	<body>
+		<section id="top_container">
+			<img src="assets/pictures/mint_sign_in.png" alt="sign in button" id="sign_in_image">
+			<div id="top_container_elements">
+				<p>Already have an Intuit account?</p>
+				<p>I forgot my User ID or Password</p>
+			</div>
+			<div id="title">
+				<img src="assets/pictures/mint_title.png" alt="titles" id="title_picture">
+			</div>
+		</section>
+		
+		<main id="main_form">
+			<p id="create_account_title">Create an Intuit account</h1>
+			<p id="create_account_desc">One account for everything Intuit, including Mint.</p>
+			<p id="create_account_more">Learn more</p><br><br>
+			<form>
+				<label for="email" class="form_label">Email address</label>
+				<input type="email" id="email" name="email" class="form_box" required><br><br><br>
+				<label for="phone" class="form_label">Phone (recommended)</label>
+				<input type="tel" id="phone" name="phone" class="form_box">
+				<p id="form_phone_desc">Standard call, messaging or data rates may apply.</p><br><br>
+				<label for="password" class="form_label">Password</label>
+				<div>
+					<input type="password" id="password" name="password" class="form_box">
+					<img src="assets/pictures/password_lock.png" alt="padlock" id="password_lock">
+				</div>
+				<button id="create_account_btn">
+					<img src="assets/pictures/create_account.png" id="create_account_pic" alt="create account image">
+				</button>
+				<br><br><br>
+				<p id="account_terms">By clicking Create account, you agree to our <br><br>
+					 Terms and have read and acknowledge our Privacy<br><br>
+					 Statement.
+				</p>
+			</form>
+			<div id="captcha_section"> 
+				<p id="captcha_text">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+			</div>
+		</main>
+	</body>
+</html>
+		
